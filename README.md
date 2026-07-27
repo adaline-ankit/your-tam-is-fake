@@ -2,7 +2,7 @@
 
 # your-tam-is-fake
 
-**A go-to-market strategist for your coding agent that does the research, rebuilds your market size from scratch, and refuses to tell you what you want to hear.**
+**A GTM strategist for your coding agent that does the research, rebuilds your TAM from scratch, and won't fold when you push back.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-black.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/Claude_Code-plugin-DC2626)](#install)
@@ -10,15 +10,21 @@
 [![Cursor](https://img.shields.io/badge/Cursor-skill-DC2626)](#install)
 [![Gemini CLI](https://img.shields.io/badge/Gemini_CLI-extension-DC2626)](#install)
 
+```bash
+claude plugin marketplace add adaline-ankit/your-tam-is-fake
+```
+
 </div>
 
 ---
 
 Every AI assistant you have ever pitched an idea to has told you it was a great idea.
 
-That is not a coincidence and it is not a compliment. Models are trained on human feedback, humans rate agreement highly, and the result is a machine that reflexively validates. Which is fine for a rubber duck and useless for a strategy call.
+That is not a coincidence and it is not a compliment. Models are trained on human feedback, humans rate agreement highly, and the result is a machine that reflexively validates. Fine for a rubber duck. Useless for a strategy call.
 
-`your-tam-is-fake` is the opposite. Pitch it an idea and it will go and *look*, then come back with a market size it built itself, the one assumption your entire plan is resting on, and a verdict it will defend when you push back.
+`your-tam-is-fake` is the opposite. Pitch it an idea and it goes and *looks*, then comes back with a market size it built itself, the one assumption your entire plan is resting on, and a verdict it will defend when you push back.
+
+**In one live run it took a claimed $180B TAM down to $1.1M–$12.8M across 14 cited sources — then found the market size was only the *second* worst error in the pitch.** [Unedited transcripts →](evals/transcripts/)
 
 ## What it actually does
 
