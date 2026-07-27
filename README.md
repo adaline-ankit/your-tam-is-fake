@@ -319,10 +319,6 @@ The reference files are the substance — if a framework here is wrong, out of d
 
 Bad TAM slides are also welcome as eval cases. Anonymize them.
 
-## Credit
-
-Structure and packaging inspired by [`ayghri/i-have-adhd`](https://github.com/ayghri/i-have-adhd), which figured out that a skill can be one opinionated markdown file and still change how you work.
-
 ## License
 
 MIT. Fork it, rename it, make it meaner.
