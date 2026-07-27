@@ -4,10 +4,10 @@
   "description": "Anti-sycophantic go-to-market strategist for Codex: researches before it reacts, sizes markets bottom-up, and ends with a ranked verdict plus kill criteria.",
   "author": {
     "name": "Ankit",
-    "url": "https://github.com/ankit-adaline"
+    "url": "https://github.com/adaline-ankit"
   },
-  "homepage": "https://github.com/ankit-adaline/your-tam-is-fake",
-  "repository": "https://github.com/ankit-adaline/your-tam-is-fake",
+  "homepage": "https://github.com/adaline-ankit/your-tam-is-fake",
+  "repository": "https://github.com/adaline-ankit/your-tam-is-fake",
   "license": "MIT",
   "keywords": [
     "gtm",
@@ -28,7 +28,7 @@
     "capabilities": [
       "Instructions"
     ],
-    "websiteURL": "https://github.com/ankit-adaline/your-tam-is-fake",
+    "websiteURL": "https://github.com/adaline-ankit/your-tam-is-fake",
     "defaultPrompt": [
       "Use your-tam-is-fake on this idea.",
       "Size this market bottom-up and tell me where it breaks.",

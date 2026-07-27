@@ -3,7 +3,7 @@
 ## Claude Code
 
 ```bash
-claude plugin marketplace add ankit-adaline/your-tam-is-fake
+claude plugin marketplace add adaline-ankit/your-tam-is-fake
 ```
 
 Invoke with `/your-tam-is-fake`. Add an intensity to change the voice:
@@ -17,14 +17,14 @@ It stays active for the rest of the session. Turn it off with "stop tam mode" or
 Local development instead of the marketplace:
 
 ```bash
-git clone https://github.com/ankit-adaline/your-tam-is-fake
+git clone https://github.com/adaline-ankit/your-tam-is-fake
 claude plugin marketplace add ./your-tam-is-fake
 ```
 
 ## Codex
 
 ```bash
-git clone https://github.com/ankit-adaline/your-tam-is-fake ~/.codex/skills/your-tam-is-fake
+git clone https://github.com/adaline-ankit/your-tam-is-fake ~/.codex/skills/your-tam-is-fake
 ```
 
 Invoke with `$your-tam-is-fake`. The `.codex-plugin/plugin.json` manifest points at `./skills/`.
@@ -34,7 +34,7 @@ Alternatively, drop [`AGENTS.md`](AGENTS.md) into your project root — it's a c
 ## Cursor
 
 ```bash
-git clone https://github.com/ankit-adaline/your-tam-is-fake /tmp/ytif
+git clone https://github.com/adaline-ankit/your-tam-is-fake /tmp/ytif
 mkdir -p .cursor/skills
 cp -r /tmp/ytif/.cursor/skills/your-tam-is-fake .cursor/skills/
 ```
@@ -46,14 +46,14 @@ The `.cursor/skills/` copy is generated from `skills/your-tam-is-fake/SKILL.md` 
 Full extension:
 
 ```bash
-gemini extensions install https://github.com/ankit-adaline/your-tam-is-fake
+gemini extensions install https://github.com/adaline-ankit/your-tam-is-fake
 ```
 
 Slash command only:
 
 ```bash
 curl -o ~/.gemini/commands/your-tam-is-fake.toml \
-  https://raw.githubusercontent.com/ankit-adaline/your-tam-is-fake/main/skills/your-tam-is-fake/agents/gemini.toml
+  https://raw.githubusercontent.com/adaline-ankit/your-tam-is-fake/main/skills/your-tam-is-fake/agents/gemini.toml
 ```
 
 Then `/your-tam-is-fake <your idea>`.

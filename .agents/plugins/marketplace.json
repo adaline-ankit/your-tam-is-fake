@@ -8,7 +8,7 @@
       "name": "your-tam-is-fake",
       "source": {
         "source": "url",
-        "url": "https://github.com/ankit-adaline/your-tam-is-fake.git",
+        "url": "https://github.com/adaline-ankit/your-tam-is-fake.git",
         "ref": "main"
       },
       "policy": {

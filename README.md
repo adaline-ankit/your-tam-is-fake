@@ -144,7 +144,7 @@ The same finding — an $8K ACV with a two-rep outbound team — at each level:
 
 ## What's inside
 
-Nine reference files the agent loads on demand, so it isn't improvising frameworks:
+Ten reference files the agent loads on demand, so it isn't improvising frameworks:
 
 | File | What it carries |
 |------|-----------------|
@@ -164,7 +164,7 @@ Nine reference files the agent loads on demand, so it isn't improvising framewor
 ### Claude Code
 
 ```bash
-claude plugin marketplace add ankit-adaline/your-tam-is-fake
+claude plugin marketplace add adaline-ankit/your-tam-is-fake
 ```
 
 Then `/your-tam-is-fake` in any session.
@@ -172,7 +172,7 @@ Then `/your-tam-is-fake` in any session.
 ### Codex
 
 ```bash
-git clone https://github.com/ankit-adaline/your-tam-is-fake ~/.codex/skills/your-tam-is-fake
+git clone https://github.com/adaline-ankit/your-tam-is-fake ~/.codex/skills/your-tam-is-fake
 ```
 
 Then `$your-tam-is-fake` in a Codex session, or point Codex at the repo's `AGENTS.md`.
@@ -187,7 +187,7 @@ cp -r your-tam-is-fake/.cursor/skills/your-tam-is-fake .cursor/skills/
 ### Gemini CLI
 
 ```bash
-gemini extensions install https://github.com/ankit-adaline/your-tam-is-fake
+gemini extensions install https://github.com/adaline-ankit/your-tam-is-fake
 ```
 
 Or for the slash command only:
