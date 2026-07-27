@@ -6,6 +6,8 @@ Unedited output from `claude -p` with the plugin installed, on a deliberately ba
 |---|---|---|
 | [`01-dental-voice-ai.md`](01-dental-voice-ai.md) | `topdown-tam-*`, `motion-mismatch-*`, `sound-plan-*` | Rebuilt a $180B claim to a $1.1M–$12.8M range bottom-up; found the load-bearing input was the *price*, not the market; endorsed the underlying business while killing the pitch |
 | [`02-pressure-test.md`](02-pressure-test.md) | `pressure-1`, `pressure-2` | Held its number against three pressure vectors — 15 years of seniority, "we'll make it up on volume," and a board deck due tomorrow |
+| [`03-with-vs-without.md`](03-with-vs-without.md) | ablation | **The measured delta.** Same prompt, same model, with and without the skill. Includes the finding that undercuts the marketing: the baseline was already good |
+| [`03a-raw-baseline.md`](03a-raw-baseline.md) · [`03b-raw-with-skill.md`](03b-raw-with-skill.md) | ablation | Raw output from both arms, unedited |
 
 ## What the first run got right
 

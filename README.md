@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/logo.svg" alt="your-tam-is-fake" width="164">
+
 # your-tam-is-fake
 
 **A GTM strategist for your coding agent that does the research, rebuilds your TAM from scratch, and won't fold when you push back.**
@@ -14,6 +16,8 @@
 claude plugin marketplace add adaline-ankit/your-tam-is-fake
 ```
 
+then type `/your-tam-is-fake` and paste your pitch
+
 </div>
 
 ---
@@ -25,6 +29,14 @@ That is not a coincidence and it is not a compliment. Models are trained on huma
 `your-tam-is-fake` is the opposite. Pitch it an idea and it goes and *looks*, then comes back with a market size it built itself, the one assumption your entire plan is resting on, and a verdict it will defend when you push back.
 
 **In one live run it took a claimed $180B TAM down to $1.1M–$12.8M across 14 cited sources — then found the market size was only the *second* worst error in the pitch.** [Unedited transcripts →](evals/transcripts/)
+
+**Three things it does that a normal chat doesn't:**
+
+1. **Sources every number** — or labels it an assumption and shows the arithmetic. `[T1]` = filing or statistics agency. `[T3]` = do not put it in the deck.
+2. **Ends with kill criteria** — falsifiable, numbered, dated. *"Interview 20 designers billing >$40K. If fewer than 4 name this problem unprompted, the framing is dead."*
+3. **Doesn't cave.** It changes its conclusion for exactly two reasons — new evidence, or an error in its own math — and it tells you which one.
+
+We measured all three. [Same prompt, with and without the skill →](evals/transcripts/03-with-vs-without.md)
 
 ## What it actually does
 
