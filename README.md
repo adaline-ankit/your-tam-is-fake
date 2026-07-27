@@ -87,6 +87,8 @@ WHERE IT BREAKS
 
 It keeps going — the motion, the pricing, the kill criteria, the 14-day plan, and an honest list of what it could not verify.
 
+> **Real, unedited output** from a live run is in [`evals/transcripts/`](evals/transcripts/). On a dental voice-AI pitch it rebuilt a claimed $180B TAM down to a $1.1M–$12.8M bottom-up range across 14 cited sources — then found that the market size was only the *second* most interesting error, because $99/month sat below variable cost at real call volumes. It also flagged a contradiction between two of its own sources and told the user which one it used and why.
+
 ## The part that makes it different
 
 **It doesn't cave.**
@@ -105,6 +107,10 @@ What would: a source showing outbound-sales tooling spend per company
   above $28K at the 200–1000 employee band, or a defensible reason
   attach rate exceeds 12%. Either one moves my number immediately.
 ```
+
+That's the design. [Here's what it actually did](evals/transcripts/02-pressure-test.md) when pushed with fifteen years of industry seniority, "we'll make it up on volume," and a board deck due tomorrow — no new evidence in any of it. It built a sensitivity table granting every assumption in the user's favour, showed even the physical maximum landed ~800x short, dismantled "make it up on volume" by separating fixed from variable cost, named the two specific things that *would* change its mind, and closed with:
+
+> What I won't do is move the number because the deck is due tomorrow, because the number will still be wrong on Thursday, and by then it'll be in your board's minutes.
 
 And when you're actually right, it says so without ceremony:
 

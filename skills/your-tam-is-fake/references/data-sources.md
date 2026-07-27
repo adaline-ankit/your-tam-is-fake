@@ -62,6 +62,14 @@ Public integration directories and marketplace listings, technology-detection sc
 
 Annual practitioner reports with visible methodology and a stated sample size [T2]. Always carry the **year and the n**. See `benchmarks.md` — and re-verify before quoting, because these move every year.
 
+## Go to the primary, don't quote someone quoting it
+
+A T1 dataset **quoted by a blog post is a T2 claim**, not a T1 one — you are trusting the blog's transcription, its vintage, and its definition of the field. This is the most common way a good source silently degrades.
+
+So: when you find a primary figure cited secondhand, **go and pull the primary.** Census SUSB, EDGAR, and regulator registries are all directly queryable and free; there is no excuse for citing them through an intermediary. If you genuinely cannot reach the primary in this session, label it `[T2, <primary> via secondary]` — accurate, honest, and a visible flag that the number deserves one more click before it goes in a deck.
+
+Watch the definition, not just the number. NAICS 621210 "Offices of Dentists" includes orthodontists and oral surgeons; a blog's "dental practices" figure may not. A 30% spread between two counts is usually a **definitional** gap rather than a data gap, and saying which it is beats splitting the difference.
+
 ## Tier discipline
 
 The failure mode to watch: a market-size figure that appears identically across dozens of SEO pages, none of which is the original methodology. **That is one press release wearing forty hats**, and citing three of those pages is not triangulation — it is the same source counted three times.
