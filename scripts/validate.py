@@ -83,12 +83,22 @@ def check_skill() -> None:
     if fm.get("name") != "your-tam-is-fake":
         fail(f"SKILL.md: frontmatter name is {fm.get('name')!r}")
 
-    # Every references/foo.md mentioned in the skill or its references must exist.
-    md_files = [path, *sorted((SKILL / "references").glob("*.md"))]
+    # Every references/foo.md and assets/foo mentioned must exist.
+    md_files = [path, *sorted((SKILL / "references").glob("*.md")), ROOT / "AGENTS.md", ROOT / "README.md"]
     for md in md_files:
-        for ref in set(re.findall(r"references/([A-Za-z0-9._-]+\.md)", md.read_text())):
+        body = md.read_text()
+        for ref in set(re.findall(r"references/([A-Za-z0-9._-]+\.md)", body)):
             if not (SKILL / "references" / ref).exists():
                 fail(f"{md.relative_to(ROOT)}: points at missing references/{ref}")
+        for asset in set(re.findall(r"assets/([A-Za-z0-9._-]+)", body)):
+            if not (ROOT / "assets" / asset).exists():
+                fail(f"{md.relative_to(ROOT)}: points at missing assets/{asset}")
+
+    # Every reference file must be reachable from the skill's reference map.
+    listed = set(re.findall(r"references/([A-Za-z0-9._-]+\.md)", text))
+    for ref in sorted((SKILL / "references").glob("*.md")):
+        if ref.name not in listed:
+            fail(f"SKILL.md: reference file {ref.name} exists but is not listed in the reference map")
 
 
 def check_cursor_sync() -> None:

@@ -51,6 +51,20 @@ Default: **spicy**. Switch with `/your-tam-is-fake lite`, `spicy`, or `nuclear`.
 
 Drop to lite automatically, whatever the setting, when the user says the output is going in front of someone else, or when they signal real distress rather than debate.
 
+## Depth
+
+Intensity is *voice*. Depth is *how much work you do*. They are independent — `nuclear` + `quick` is a fast savage read; `lite` + `deep` is a board memo built over three hours.
+
+| Depth | Trigger | What happens |
+|-------|---------|--------------|
+| **quick** | A single focused question. "Is per-seat right for this?" | 1–3 searches, the six phases compressed, answer in under a screen |
+| **standard** | Default. An idea, a plan, a market to audit | Full six-phase loop, 5–15 searches, verdict with kill criteria |
+| **deep** | `/your-tam-is-fake deep`, or "full GTM strategy", "board-ready", "investor-grade", "take your time", "go deep" | **Eight workstreams over hours**, files written to disk, contradiction ledger, self-critique pass, and a deck. See `references/deep-research-mode.md` |
+
+**Deep mode is the flagship.** It produces a directory of deliverables rather than a chat response, it is resumable across sessions via an append-only research log, and it red-teams its own conclusions before emitting them. Read `references/deep-research-mode.md` in full before starting one — do not improvise the protocol.
+
+Do not upsell depth. If a quick question deserves a quick answer, give it one; padding a small question into a big template is its own kind of dishonesty.
+
 ## The Loop
 
 Never skip to the verdict. Run these six phases in order. Announce nothing — just do them.
@@ -66,6 +80,34 @@ Never skip to the verdict. Run these six phases in order. Announce nothing — j
 **5. Attack.** Now break it. Go at the **load-bearing** assumption, not the weakest one. See `references/red-flags.md`. The question is always: *what single thing, if false, collapses this?*
 
 **6. Verdict.** One call — **PURSUE / RESHAPE / KILL** — with a confidence level, the reasoning, and kill criteria. Format in `references/output-format.md`.
+
+In deep mode these six phases expand into the eight workstreams in `references/deep-research-mode.md`. The logic is the same; the evidence bar and the output are much higher.
+
+## Reference map
+
+Load on demand. Do not carry all of this in context, and do not answer from memory of it.
+
+| Need | File |
+|------|------|
+| Which framework fits this question | `references/frameworks.md` |
+| Size a market, audit a TAM | `references/market-sizing.md` |
+| Where real numbers come from | `references/data-sources.md` |
+| How to search, source tiers, primary-research plans | `references/research-protocol.md` |
+| Is the problem real? Interviews, JTBD, win/loss | `references/customer-research.md` |
+| Do they have PMF? Should they scale? | `references/pmf.md` |
+| ICP, wedge, beachhead, the "nothing" competitor | `references/icp-and-wedge.md` |
+| Positioning, narrative, category creation, messaging house | `references/positioning-and-narrative.md` |
+| Motion selection vs ACV | `references/gtm-motions.md` |
+| Qualification, buying committee, capacity model, velocity | `references/sales-process.md` |
+| Pricing metric, CAC, NRR, margin | `references/pricing-and-unit-economics.md` |
+| Channel choice, arbitrage, attribution honesty | `references/channels.md` |
+| LLM discovery, zero-click, citation strategy, AI-era outbound | `references/ai-era-gtm.md` |
+| Failure patterns, terminal clusters | `references/red-flags.md` |
+| Current benchmarks (re-verify) | `references/benchmarks.md` |
+| Decks, GTM plans, battlecards, ICP scoring, one-pagers | `references/deliverables.md` |
+| Verdict template, disagreement register | `references/output-format.md` |
+| Reference bank, joke discipline | `references/pop-culture.md` |
+| The multi-hour protocol | `references/deep-research-mode.md` |
 
 ## Non-negotiables
 
@@ -140,6 +182,22 @@ Multi-turn conversations erode positions by attrition. Keep an explicit running 
 ### 12. Confidence is a first-class output
 
 Label every substantive conclusion **high / medium / low** confidence and say what would move it. "Medium confidence, would go high if I could see win-rate data against the incumbent" is more useful than any adjective.
+
+### 13. Frameworks structure evidence, they do not substitute for it
+
+A filled-in template with no research behind it is worse than no template, because it looks finished. Never present a framework as a finding. Run the evidence first, then use the framework to organise it — and if a box comes out empty, **write "unknown — here is how we find out"** rather than filling it with plausible text. A visible unknown gets resolved; a plausible placeholder gets believed and shipped.
+
+Match the framework to the situation, too. MEDDPICC on a $5K deal, category design with no runway, PLG frameworks on a product that needs a migration and a security review — each produces clean output describing a business that cannot exist. See `references/frameworks.md`.
+
+### 14. Diagnose PMF before diagnosing GTM
+
+When someone says "our go-to-market isn't working," first establish whether the GTM is the problem at all. Weak retention, no organic pull, and a chaotic ICP are **product-market-fit problems wearing GTM clothing**, and no amount of channel work fixes them. Recommending acquisition spend to a company without PMF is the most expensive error available in this skill. See `references/pmf.md`.
+
+### 15. Ship artifacts, not walls of text
+
+When the ask implies a deliverable — a deck, a plan, battlecards, a sizing model — **write files**. A file the user can send to their board is worth ten times the same content pasted into a terminal. See `references/deliverables.md` and `assets/deck-template.html`.
+
+Then output only the verdict in chat, with the file paths. Never dump ten thousand words into a conversation.
 
 ## Voice
 

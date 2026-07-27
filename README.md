@@ -142,22 +142,78 @@ The same finding — an $8K ACV with a two-rep outbound team — at each level:
 
 **The analysis is byte-identical across all three.** Only the prose changes. Nuclear mode is not permission to be less rigorous or more negative — a nuclear verdict on a genuinely strong plan is still "this is strong," just with attitude.
 
+## Deep mode — it can work for hours
+
+```bash
+/your-tam-is-fake deep
+```
+
+Intensity is *voice*. Depth is *how much work it does*, and they're independent — `nuclear` + `quick` is a fast savage read, `lite` + `deep` is a board memo built over three hours.
+
+Deep mode doesn't answer in chat. It builds a directory:
+
+```
+gtm-research/lease-abstraction/
+  00-brief.md            the decision this research serves, and the options
+  01-research-log.md     APPEND-ONLY — every search, source, tier, finding
+  02-contradictions.md   where sources disagree, and how it resolved them
+  03-sizing-model.md     N × A × P, three scenarios, two cross-checks
+  04-landscape.md        competitors, adjacents, the graveyard, capital raised
+  05-demand-evidence.md  verbatim buyer quotes, JTBD forces, trigger events
+  06-icp-and-segments.md tiered ICP with counts and the literal queries
+  07-positioning.md      Dunford frame, narrative, category call
+  08-motion-economics.md capacity model, pricing, unit economics
+  09-risks.md            ranked, with tests, costs, kill criteria
+  10-verdict.md          the call — stands alone, everything else is appendix
+  11-open-questions.md   the primary-research plan, with costs
+  12-deck.html           the thing you'll actually forward
+```
+
+Eight workstreams, each with **exit criteria it can't skip**. W2 doesn't close until it has ten verbatim buyer quotes with URLs. W3 doesn't close until it has found two companies that already died trying this, and why. W4 doesn't close until two independent cross-checks have been reconciled against each other.
+
+Three properties that make it more than a long prompt:
+
+- **Resumable.** The research log is append-only, so a new session reads the brief and the log and picks up at the last incomplete workstream. You can stop it and come back tomorrow.
+- **Saturation, not exhaustion.** Each workstream stops when three consecutive searches return nothing new — and logs where that happened. Fast saturation is itself a finding: it usually means the market is unobservable from outside, which changes the recommendation toward primary research.
+- **It red-teams itself before you see it.** W8 attacks its own report from five angles, including the one that matters most: *did I reach the conclusion the user wanted?* If the verdict matches the founder's opening hope, it re-derives the load-bearing input specifically because that's suspicious.
+
+And a contradiction ledger, because the quiet failure of all research is picking the convenient number when two sources disagree. Here it has to write both down, resolve by tier or recency or methodology — or leave it unresolved, widen the range, and lower its own confidence. An honest wide range beats a false precise one.
+
 ## What's inside
 
-Ten reference files the agent loads on demand, so it isn't improvising frameworks:
+Eighteen reference files the agent loads on demand, so it isn't improvising frameworks:
 
 | File | What it carries |
 |------|-----------------|
-| [`market-sizing.md`](skills/your-tam-is-fake/references/market-sizing.md) | Bottom-up `N × A × P`, where to actually source population counts, triangulation, worked example |
+| [`frameworks.md`](skills/your-tam-is-fake/references/frameworks.md) | Index of which framework answers which question — and how founders actually find ideas (notice vs invent, schlep blindness, why repeatability beats revenue) |
+| [`deep-research-mode.md`](skills/your-tam-is-fake/references/deep-research-mode.md) | The multi-hour protocol: 8 workstreams, exit criteria, saturation rule, contradiction ledger, self-critique |
+| [`market-sizing.md`](skills/your-tam-is-fake/references/market-sizing.md) | Bottom-up `N × A × P`, triangulation, worked example, red flags in a handed-to-you TAM |
+| [`data-sources.md`](skills/your-tam-is-fake/references/data-sources.md) | Where real numbers live — SUSB, CBP, QCEW, OEWS, EDGAR, regulator registries, and public procurement records for real enterprise pricing |
 | [`research-protocol.md`](skills/your-tam-is-fake/references/research-protocol.md) | The 7-search sequence, source tiers, primary-research plans with costs |
-| [`icp-and-wedge.md`](skills/your-tam-is-fake/references/icp-and-wedge.md) | The 6-part ICP test, beachhead selection, positioning that survives a bake-off |
+| [`customer-research.md`](skills/your-tam-is-fake/references/customer-research.md) | Mom Test rules, the three currencies of commitment, the Four Forces of Progress, switch interviews, win/loss |
+| [`pmf.md`](skills/your-tam-is-fake/references/pmf.md) | Sean Ellis 40%, the Superhuman engine, retention-curve shapes, and why GTM fit is a separate gate |
+| [`icp-and-wedge.md`](skills/your-tam-is-fake/references/icp-and-wedge.md) | The 6-part ICP test, beachhead and bowling pins, the "nothing" competitor |
+| [`positioning-and-narrative.md`](skills/your-tam-is-fake/references/positioning-and-narrative.md) | Dunford's sequence, strategic narrative, category entry vs creation, messaging house |
 | [`gtm-motions.md`](skills/your-tam-is-fake/references/gtm-motions.md) | ACV → motion mapping, where each motion structurally fails |
+| [`sales-process.md`](skills/your-tam-is-fake/references/sales-process.md) | The bowtie, SPICED, BANT/MEDDIC/MEDDPICC by deal size, buying-committee reality, the capacity model |
 | [`pricing-and-unit-economics.md`](skills/your-tam-is-fake/references/pricing-and-unit-economics.md) | Pricing metrics, the per-seat trap for AI products, CAC/NRR/payback done honestly |
 | [`channels.md`](skills/your-tam-is-fake/references/channels.md) | Channel fit by ACV, arbitrage windows, attribution honesty |
+| [`ai-era-gtm.md`](skills/your-tam-is-fake/references/ai-era-gtm.md) | Zero-click, LLM shortlist formation, optimising to be *cited* not clicked, the attribution replacement stack |
 | [`red-flags.md`](skills/your-tam-is-fake/references/red-flags.md) | 30 failure patterns and the four clusters that are jointly terminal |
-| [`benchmarks.md`](skills/your-tam-is-fake/references/benchmarks.md) | 2025 SaaS efficiency data, banded by ACV, with instructions to re-verify |
+| [`benchmarks.md`](skills/your-tam-is-fake/references/benchmarks.md) | 2025 efficiency data banded by ACV, ramp and attainment, cycle length, committee size — all dated, all with re-verify instructions |
+| [`deliverables.md`](skills/your-tam-is-fake/references/deliverables.md) | Deck structure, GTM plan, launch tiering, battlecards (including one for "nothing"), ICP scoring model |
 | [`output-format.md`](skills/your-tam-is-fake/references/output-format.md) | The verdict template and the disagreement register |
 | [`pop-culture.md`](skills/your-tam-is-fake/references/pop-culture.md) | The reference bank, and the rule that a joke must carry analytical payload |
+
+Plus [`assets/deck-template.html`](assets/deck-template.html) — a self-contained, print-to-PDF deck scaffold with the tier tags built in.
+
+## The research behind it
+
+The reference files encode published practice rather than improvised opinion. Positioning follows April Dunford's sequence — note the direction, that positioning *produces* the ICP rather than the reverse. Narrative follows Andy Raskin's shift/stakes/promised-land structure. Segmentation is Geoffrey Moore's beachhead and bowling pins. Demand evidence uses Bob Moesta's Four Forces, with the observation that **anxiety is usually the binding constraint in B2B** — the buyer's downside from a bad purchase is personal while the upside is organizational, which is why "nobody got fired for buying the incumbent" is the strongest moat in enterprise software. Interviews follow *The Mom Test*: past behaviour over hypotheticals, and commitment (time, reputation, money) as the only currency that counts. PMF uses Sean Ellis's 40% threshold and Rahul Vohra's segmentation loop. Revenue architecture uses Winning by Design's bowtie and SPICED. Qualification maps BANT/MEDDIC/MEDDPICC to deal size instead of picking a favourite.
+
+Benchmarks are cited, dated, and carry their sample size — 2025 SaaS efficiency data (n≈342), ramp and attainment by segment, buying-committee size, cycle length by ACV band. The skill is instructed to re-verify all of it before quoting, because it decays within a year.
+
+It also knows the funnel changed. ~94% of B2B buyers now use generative AI during a purchase, shortlists shrank to ~2.5 vendors and form before you know the buyer exists, and ~83% of AI-overview searches end without a click. So a demand-gen plan optimised to be *found* gets flagged, because the job now is to be **cited**.
 
 ## Install
 
@@ -212,6 +268,17 @@ Who died trying this already, and why?
 What's the one assumption this whole plan rests on?
 Give me kill criteria for the next 30 days.
 Our NRR is 94% and we want to raise for paid acquisition. Nuclear mode.
+
+We're hiring 20 AEs in January to hit $20M. Check the capacity math.
+Sean Ellis score is 24% and we're pivoting. Talk me out of it.
+Enterprise buyers love the demo then go quiet. What's actually happening?
+Our GTM isn't working — is it actually the GTM?
+Dashboard says content CAC is 5x paid. Should I cut the content team?
+We're creating a new category. Seed stage, 14 months runway.
+Write me battlecards, including one for "they did nothing."
+Give me a market sizing deck for Thursday's board meeting.
+
+/your-tam-is-fake deep — full investor-grade GTM strategy for [idea]
 ```
 
 ## Caveats worth reading
