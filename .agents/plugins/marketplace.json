@@ -1,0 +1,21 @@
+{
+  "name": "your-tam-is-fake",
+  "interface": {
+    "displayName": "Your TAM Is Fake"
+  },
+  "plugins": [
+    {
+      "name": "your-tam-is-fake",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ankit-adaline/your-tam-is-fake.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Strategy"
+    }
+  ]
+}

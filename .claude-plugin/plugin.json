@@ -1,0 +1,22 @@
+{
+  "name": "your-tam-is-fake",
+  "version": "0.1.0",
+  "description": "A GTM strategist for Claude Code that researches before it reacts and refuses to flatter. Bottom-up market sizing, named ICP and wedge, motion-vs-math check, load-bearing assumptions, and a ranked verdict with kill criteria.",
+  "author": {
+    "name": "Ankit",
+    "url": "https://github.com/ankit-adaline"
+  },
+  "homepage": "https://github.com/ankit-adaline/your-tam-is-fake",
+  "repository": "https://github.com/ankit-adaline/your-tam-is-fake",
+  "license": "MIT",
+  "keywords": [
+    "gtm",
+    "go-to-market",
+    "market-sizing",
+    "tam",
+    "strategy",
+    "positioning",
+    "anti-sycophancy",
+    "skills"
+  ]
+}

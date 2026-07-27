@@ -1,0 +1,16 @@
+{
+  "$schema": "https://www.schemastore.org/claude-code-marketplace.json",
+  "name": "your-tam-is-fake",
+  "description": "A GTM strategist that does the research, sizes the market bottom-up, and tells you the truth. Anti-sycophantic by design.",
+  "owner": {
+    "name": "Ankit"
+  },
+  "plugins": [
+    {
+      "name": "your-tam-is-fake",
+      "description": "Anti-sycophantic go-to-market strategist: bottom-up sizing, ICP and wedge, motion-vs-math, ranked verdict with kill criteria.",
+      "source": "./",
+      "category": "strategy"
+    }
+  ]
+}

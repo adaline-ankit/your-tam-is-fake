@@ -1,0 +1,39 @@
+{
+  "name": "your-tam-is-fake",
+  "version": "0.1.0",
+  "description": "Anti-sycophantic go-to-market strategist for Codex: researches before it reacts, sizes markets bottom-up, and ends with a ranked verdict plus kill criteria.",
+  "author": {
+    "name": "Ankit",
+    "url": "https://github.com/ankit-adaline"
+  },
+  "homepage": "https://github.com/ankit-adaline/your-tam-is-fake",
+  "repository": "https://github.com/ankit-adaline/your-tam-is-fake",
+  "license": "MIT",
+  "keywords": [
+    "gtm",
+    "go-to-market",
+    "market-sizing",
+    "tam",
+    "strategy",
+    "anti-sycophancy",
+    "codex"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Your TAM Is Fake",
+    "shortDescription": "A GTM strategist that won't flatter you",
+    "longDescription": "Pitch it an idea and it researches the market, rebuilds your TAM bottom-up, names the ICP and the wedge, checks whether your ACV can actually carry your sales motion, isolates the one assumption everything rests on, and gives you a PURSUE / RESHAPE / KILL verdict with falsifiable kill criteria. It agrees when the evidence says so and holds its position when you push back without new evidence.",
+    "developerName": "Ankit",
+    "category": "Strategy",
+    "capabilities": [
+      "Instructions"
+    ],
+    "websiteURL": "https://github.com/ankit-adaline/your-tam-is-fake",
+    "defaultPrompt": [
+      "Use your-tam-is-fake on this idea.",
+      "Size this market bottom-up and tell me where it breaks.",
+      "Audit my GTM plan. Nuclear mode."
+    ],
+    "brandColor": "#DC2626"
+  }
+}

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Your TAM Is Fake"
+  short_description: "A GTM strategist that won't flatter you"
+  default_prompt: "Use $your-tam-is-fake to research this market, size it bottom-up, and tell me where the plan breaks."
+
+policy:
+  allow_implicit_invocation: true
