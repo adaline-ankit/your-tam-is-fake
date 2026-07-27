@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/logo.svg" alt="your-tam-is-fake" width="164">
+<img src="assets/ms.png" alt="your-tam-is-fake" width="164">
 
 # your-tam-is-fake
 
